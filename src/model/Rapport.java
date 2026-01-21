@@ -27,6 +27,25 @@ public class Rapport {
         this.taches.add(tache);
     }
 
+    // Getters
+    public String getAuteur() {
+        return auteur;
+    }
+
+    public LocalDate getDateReunion() {
+        return dateReunion;
+    }
+
+    public List<String> getParticipants() {
+        return participants;
+    }
+
+    public List<TacheRapport> getTaches() {
+        return taches;
+    }
+
+    
+
     @Override
     public String toString(){
         return "Rapport de " + auteur + " (" + participants.size() + " participants, " + taches.size() + " tâches)";

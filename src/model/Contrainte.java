@@ -47,6 +47,22 @@ public class Contrainte {
         this.raisonAnnulation = raisonAnnulation;
     }
 
+    public void setDateVerification(LocalDate dateVerification) {
+        this.dateVerification = dateVerification;
+    }
+
+    public String getVerificateur() {
+        return verificateur;
+    }
+
+    public LocalDate getDateVerification() {
+        return dateVerification;
+    }
+
+    public String getRaisonAnnulation() {
+        return raisonAnnulation;
+    }
+
     @Override
     public String toString(){
         return libelle + " (" + etat + ")";

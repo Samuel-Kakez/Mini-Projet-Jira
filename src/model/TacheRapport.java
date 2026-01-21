@@ -14,6 +14,19 @@ public class TacheRapport {
         this.quand = quand;
     }
 
+    // Getters
+    public String getQuoi() {
+        return quoi;
+    }
+
+    public String getQui() {
+        return qui;
+    }
+
+    public LocalDate getQuand() {
+        return quand;
+    }
+
     @Override
     public String toString() {
         return String.format("%s par %s le %s", quoi, qui, quand);
