@@ -1,0 +1,27 @@
+Java : Application console pour piloter un projet informatique. CRUD pour les besoins/contraintes/rapports.
+
+Classe Besoin
+[état] : 
+À analyser : rien n’a encore été fait, date prévue de l’analyse
+Analysé : charge, date début, date fin, qui
+Annulé : raison
+Taux de progression : de 0 % à 100 %
+Terminé : bool
+
+
+Classe Contrainte
+[état] : 
+À prendre en compte
+Prise en compte à vérifier
+Vérifiée, par qui, date
+Annulée, raison
+
+Classe Rapport
+[propriétés] :
+Nom de l’auteur
+Participants
+Date de la réunion
+Tableau de Quoi, Qui, Quand
+
+besoins & contraintes sauvegardés dans des fichiers CSV
+rapports sauvegardés dans fichiers txt [un fichier txt par rapport]
